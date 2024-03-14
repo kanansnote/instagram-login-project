@@ -1,0 +1,97 @@
+body {
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+main, form, #storeBadges {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form {
+    padding: 9vh;
+    border-radius: 5px;
+    border: solid 1px;
+    width: 40vh;
+}
+
+#instagramLogo {
+    width: 70%;
+    margin-bottom: 5vh;
+}
+
+
+#loginWithFacebook {
+    text-align: center;
+    margin-top: 5vh;
+}
+
+#loginWithFacebook img {
+    width: 5%;
+}
+
+#storeBadges {
+    flex-direction: row;
+}
+
+#googlePlayBadge {
+    width: 14.5%;
+}
+
+#microsoftStoreBadge {
+    width: 10%;
+}
+
+.line {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+  
+.line::before,
+.line::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid;
+}
+  
+.line::before {
+    margin-right: .25em;
+}
+  
+.line::after {
+    margin-left: .25em;
+}
+
+#signUpInstagram {
+    border: 1px solid;
+    padding: 5vh 11vh 5vh 11vh;
+    border-radius: 1vh; 
+}
+
+input {
+    width: 19em;
+    margin-top: 10px;
+    padding: 9px;
+}
+
+button {
+    width: 20.65em;
+    margin-top: 4vh;
+    padding: 2vh;
+    background-color: blue;
+    border: none;
+    border-radius: 2px;
+    color: white;
+}
+
+span {
+    margin-top: 6vh;
+}
+
+footer {
+    text-align: center;
+}
